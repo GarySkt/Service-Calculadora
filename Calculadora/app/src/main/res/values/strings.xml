@@ -9,13 +9,32 @@
     <string name="btn_necesaria_secundaria">N - S</string>
     <string name="btn_indispensable">Indispensable</string>
 
-        --! Evento !-->
+    --! Evento !-->
 
-        <string name="btn_calcular">Calcular</string>
+    <string name="btn_calcular">Calcular</string>
 
     --! Hint !-->
 
-    <string name="eT_monto">Monto</string>
+        --! Evento !-->
+        <string name="eT_monto">Monto</string>
+        --! Necesario - Secundario !-->
+        <string name="eT_asientos">Asientos</string>
+        <string name="eT_horas_dia">Horas al Dia</string>
+        <string name="et_dias_mes">Dias al Mes</string>
+
+        
+    
+    
+    --! Necesario - Secundario !-->
+    
+    <string name="tV_vum">Valor Unidad Musical: 2.5</string>
+    <string name="tV_Nivel_incidencia_musical">Nivel de Incidencia Musical</string>
+    <string name="tV_Aforo_local">Aforo del Local</string>
+    <string name="tV_horas_musica_mes">Horas de uso de musica al mes</string>
+    <string name="tV_medio_ejecucion">Medio de Ejecucion</string>
+
+
+    
 
 
 </resources>
