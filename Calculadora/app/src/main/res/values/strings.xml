@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Eduardo</string>
+
+    --! Buttons !-->
+
+    --! Menu !-->
+
+    <string name="btn_evento">Evento</string>
+    <string name="btn_necesaria_secundaria">N - S</string>
+    <string name="btn_indispensable">Indispensable</string>
+
+        --! Evento !-->
+
+        <string name="btn_calcular">Calcular</string>
+
+    --! Hint !-->
+
+    <string name="eT_monto">Monto</string>
+
+
+</resources>
