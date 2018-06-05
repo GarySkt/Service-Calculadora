@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Evento"></activity>
-        <activity android:name=".Necesario_Secundario"></activity>
+        <activity android:name=".Evento" />
+        <activity android:name=".Necesario_Secundario" />
+        <activity android:name=".Indispensable"></activity>
     </application>
 
 </manifest>

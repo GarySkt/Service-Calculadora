@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Indispensable">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/eT_Asientos_indispensable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eT_asientos"
+        android:inputType="number"/>
+    <Spinner
+        android:id="@+id/spinner_porcentaje"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/tV_costoentrada"/>
+    <Spinner
+        android:id="@+id/spinner_costo_entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/eT_entradaA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eT_entradaA"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/eT_entradaB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eT_entradaB"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/eT_entradaC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eT_entradaC"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tV_dias_uso_musica"
+        android:textStyle="bold"
+        android:textSize="20dp"
+       />
+
+    <Spinner
+        android:id="@+id/spinner_dias_uso_musica"
+        android:layout_width="304dp"
+        android:layout_height="26dp"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tV_resultadoindispensable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:textSize="40dp"
+         />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_calcular_indispensale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/btn_calcular"
+        android:onClick="calcular_indispensable"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

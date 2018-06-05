@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,Necesario_Secundario.class);
         startActivity(intent);
     }
+
+    public void lanzar_indispensable (View view){
+        Intent intent = new Intent(this,Indispensable.class);
+        startActivity(intent);
+    }
 }

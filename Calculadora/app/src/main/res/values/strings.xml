@@ -15,26 +15,29 @@
 
     --! Hint !-->
 
-        --! Evento !-->
-        <string name="eT_monto">Monto</string>
-        --! Necesario - Secundario !-->
-        <string name="eT_asientos">Asientos</string>
-        <string name="eT_horas_dia">Horas al Dia</string>
-        <string name="et_dias_mes">Dias al Mes</string>
-
-        
-    
-    
+    --! Evento !-->
+    <string name="eT_monto">Monto</string>
     --! Necesario - Secundario !-->
-    
+    <string name="eT_asientos">Asientos</string>
+    <string name="eT_horas_dia">Horas al Dia</string>
+    <string name="et_dias_mes">Dias al Mes</string>
+
+
+    --! Necesario - Secundario !-->
+
     <string name="tV_vum">Valor Unidad Musical: 2.5</string>
     <string name="tV_Nivel_incidencia_musical">Nivel de Incidencia Musical</string>
     <string name="tV_Aforo_local">Aforo del Local</string>
     <string name="tV_horas_musica_mes">Horas de uso de musica al mes</string>
     <string name="tV_medio_ejecucion">Medio de Ejecucion</string>
 
+    --! Indispensable !-->
 
-    
+    <string name="tV_costoentrada">Costo de entrada</string>
+    <string name="tV_dias_uso_musica">Dias de uso de Musica</string>
+    <string name="eT_entradaA">Entrada A</string>
+    <string name="eT_entradaB">Entrada B</string>
+    <string name="eT_entradaC">Entrada C</string>
 
 
 </resources>
